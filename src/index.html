@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="wrapper">
+                <div class="main__header">
+                    <div class="main__user">
+                        <div class="main__picture">
+                            <img src="./assets/img/avatar.png" alt="Avatar">
+                        </div>
+                        <div class="main__user-info">
+                            <div class="main__name title">Laura Eddy</div>
+                            <div class="main__email">info@lauraeddy.com.au</div>
+                        </div>
+                    </div>
+                    <div class="main__setting"></div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="wrapper">
+                <div class="storages">
+                    <section class="storage">
+                        <div class="storage__title title">
+                            Storage
+                        </div>
+                        <div class="storage__size">84gb of 120GB</div>
+                        <div class="loading__scale">
+                            <span class="loading" style="width: 82%"></span>
+                        </div>
+                        <div class="storage__plan">
+                            <button class="storage__btn">Upgrade Plan</button>
+                            <div class="storage__box">
+                                <div class="storage__sign"></div>
+                                <div class="storage__text">10% off plans this month</div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="line"></div>
+                    <section class="storage">
+                        <div class="storage__left">
+                            <div class="storage__title title">
+                                Storage location
+                            </div>
+                            <div class="storage__subtitle">C: Laura\My Documents</div>
+                        </div>
+                        <div class="storage__right">
+                            <button class="storage__btn change">Change</button>
+                        </div>
+                    </section>
+                    <div class="line"></div>
+                    <section class="storage">
+                        <div class="storage__left">
+                            <div class="storage__title title">
+                                Notifications
+                            </div>
+                            <div class="storage__subtitle">All notifications enabled</div>
+                        </div>
+                        <div class="storage__right">
+                            <button class="storage__btn change">Change</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <section class="footer">
+                <div class="footer__icon">
+                    <img src="./assets/img/tick.svg" alt="Tick">
+                </div>
+                <div class="footer__text">
+                    Last synced: 3 mins ago
+                </div>
+            </section>
+        </main>
+
+        <div class="folder">
+            <div class="upload hide">
+                <div class="wrapper">
+                    <div class="upload__header">
+                        <div></div>
+                        <div class="upload__btns">
+                            <div class="upload__new active">
+                                New Upload
+                            </div>
+                            <div class="upload__recent">
+                                Recent
+                            </div>
+                        </div>
+                        <div class="upload__setting"></div>
+                    </div>
+                </div>
+    
+                <div class="line"></div>
+                <div class="upload__main">
+                        <div class="upload__area">
+                            <form action="#">
+                                <input type="file" class="upload__file hide">
+                                Click to browse or<br/> drag and drop your files
+                            </form>
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="recent hide">
+            <div class="wrapper">
+                <div class="upload__header">
+                    <div></div>
+                    <div class="upload__btns">
+                        <div class="upload__new">
+                            New Upload
+                        </div>
+                        <div class="upload__recent active">
+                            Recent
+                        </div>
+                    </div>
+                    <div class="upload__setting"></div>
+                </div>
+            </div>
+            
+            <div class="line"></div>
+            <div class="wrapper">
+                <div class="recent__main">
+    
+                    <div class="recent__btn">
+                        View all uploads
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            <section class="recent__footer footer">
+                <div class="footer__icon">
+                    <img src="./assets/img/tick.svg" alt="Tick">
+                </div>
+                <div class="footer__text">
+                    Last synced: 3 mins ago
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="modal hide">
+        <div class="modal__content">
+            <div class="modal__close">&#10006;</div>
+            <div class="modal__img">
+                <img src="./assets/img/error.png" alt="Error">
+            </div>
+            <div class="modal__text">
+                Произошла ошибка!<br/>Загрузите файл еще раз!
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/bundle.js"></script>
+</body>
+</html>
